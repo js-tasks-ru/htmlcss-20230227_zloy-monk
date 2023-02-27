@@ -1,0 +1,46 @@
+* {
+    color: #ffffff;
+    margin: 0;
+}
+
+header,
+footer {
+    text-align: center;
+}
+
+h1,
+nav,
+main,
+h2,
+footer {
+    padding: 10px;
+}
+
+h1 {
+    background-color: red;
+    font-size: 48px;
+}
+
+nav {
+    background-color: orange;
+    font-size: 24px;
+}
+
+main {
+    background-color: green;
+}
+
+article {
+    margin: 10px;
+    padding: 50px 10px 50px 10px;
+    background-color: blue;
+}
+
+li {
+    font-size: 18px;
+}
+
+footer {
+    background-color: blueviolet;
+    font-size: 42px;
+}
