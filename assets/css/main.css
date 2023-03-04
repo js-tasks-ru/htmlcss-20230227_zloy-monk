@@ -1,4 +1,9 @@
 @import '../fonts/fonts.css';
+@import url('./normalize.css');
+@import url('../../components/page/page.css');
+@import url('../../components/header/header.css');
+@import url('../../components/content/content.css');
+@import url('../../components/footer/footer.css');
 
 :root {
     --white: #ffffff;
