@@ -1,1 +1,46 @@
 /* Стилизация кнопки */
+.button {
+    width: 189px;
+    height: 48px;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button:disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.button_primary {
+    background-color: var(--primary);
+    color: var(--white);
+    border: none;
+}
+
+.button_primary:hover {
+    background-color: #2342C0;
+}
+
+.button_secondary {
+    background-color: var(--secondary);
+    color: var(--white);
+    border: none;
+}
+
+.button_secondary:hover {
+    background-color: #5028C6;
+}
+
+.button_alternate {
+    background-color: var(--white);
+    color: var(--grey-4);
+    border: 1px solid var(--grey-3);
+}
+
+.button_alternate:hover {
+    border: 1px solid var(--black);
+}
