@@ -1,11 +1,7 @@
 /* Стилизация аккордеона */
-* {
-    box-sizing: border-box;
-}
 
 .accordion__item {
     background-color: var(--white);
-    width: 730px;
     padding: 24px 32px;
     font-family: 'Inter';
     font-weight: 400;
@@ -15,7 +11,7 @@
     border-radius: 8px;
 }
 
-.accordion__item:not(":last-child") {
+.accordion:not(:last-child) {
     margin-bottom: 8px;
 }
 
