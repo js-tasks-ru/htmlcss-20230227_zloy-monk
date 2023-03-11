@@ -11,7 +11,7 @@
     border-radius: 8px;
 }
 
-.accordion:not(:last-child) {
+.accordion__item:not(:last-child) {
     margin-bottom: 8px;
 }
 
