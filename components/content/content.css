@@ -1,5 +1,10 @@
-.сontent {
+.content {
     background-color: #F9FAFC;
-    height: 300px;
     padding: 68px 0 204px;
+}
+
+.content__preview {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
 }
