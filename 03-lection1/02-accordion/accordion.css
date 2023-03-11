@@ -1,4 +1,7 @@
 /* Стилизация аккордеона */
+.accordion {
+    font-family: 'Inter', sans-serif;
+}
 
 .accordion__item {
     background-color: var(--white);
