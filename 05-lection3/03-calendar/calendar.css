@@ -51,6 +51,7 @@
 .calendar__item_day {
     font-family: 'Inter', sans-serif;
     color: var(--grey-5);
+    align-items: start;
 }
 
 .calendar__item_disabled {
