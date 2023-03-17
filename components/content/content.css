@@ -8,3 +8,18 @@
     gap: 30px;
     flex-wrap: wrap;
 }
+
+.content__main {
+    display: grid;
+    grid-column-gap: 56px;
+    grid-template-columns: auto 1fr;
+    grid-template-areas: 'menu component';
+}
+
+.content__menu {
+    grid-area: menu;
+}
+
+.content__component {
+    grid-area: component;
+}

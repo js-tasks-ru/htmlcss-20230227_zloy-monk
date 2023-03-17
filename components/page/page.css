@@ -7,3 +7,8 @@
 .page__content {
     flex-grow: 1;
 }
+
+.page__inner {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
